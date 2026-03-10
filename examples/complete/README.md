@@ -39,30 +39,6 @@ This example creates the following resources:
 - DMS Enterprise instance
 - Optional: DMS Enterprise users, authority templates, and proxy
 
-## Variables
-
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| region | The region where to deploy the resources | `string` | `"cn-hangzhou"` | no |
-| zone_id | The zone ID where to deploy the resources | `string` | `"cn-hangzhou-h"` | no |
-| name | The name prefix for all resources | `string` | `"terraform-dms-example"` | no |
-| create_users | Whether to create DMS Enterprise users in the example | `bool` | `false` | no |
-| create_authority_templates | Whether to create DMS Enterprise authority templates in the example | `bool` | `false` | no |
-| create_proxy | Whether to create DMS Enterprise proxy in the example | `bool` | `false` | no |
-
-## Outputs
-
-| Name | Description |
-|------|-------------|
-| workspace_id | The ID of the DMS Enterprise workspace |
-| enterprise_instance_id | The ID of the DMS Enterprise instance |
-| users_ids | The IDs of the DMS Enterprise users |
-| authority_templates_ids | The IDs of the DMS Enterprise authority templates |
-| proxy_id | The ID of the DMS Enterprise proxy |
-| vpc_id | The ID of the VPC |
-| vswitch_id | The ID of the VSwitch |
-| db_instance_id | The ID of the RDS instance |
-| db_connection_string | The connection string of the RDS instance |
 
 ## Notes
 
